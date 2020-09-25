@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-const PORT = 5000 || process.env.PORT;
+//const PORT = 5000 || process.env.PORT;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
