@@ -92,7 +92,7 @@ class Portfolio extends Component {
 
                     <a
                       className="text-white"
-                      href="https://opportunity-tracker.azurewebsites.net/"
+                      href="https://trackopportunity.azurewebsites.net/Identity/Account/Register"
                       target="_blank"
                     >
                       <b style={{ textAlign: "center" }}>Opportunity Tracker</b>
