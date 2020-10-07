@@ -15,7 +15,7 @@ class Header extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
+            {/* <Nav.Link href="/resume">Resume</Nav.Link> */}
             <Nav.Link href="/portfolio">Portfolios</Nav.Link>
           </Nav>
         </Navbar>

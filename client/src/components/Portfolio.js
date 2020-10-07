@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, Card } from "react-bootstrap";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 class Portfolio extends Component {
   render() {
@@ -50,6 +51,7 @@ class Portfolio extends Component {
                       href="https://nodejs-blogsite.herokuapp.com/"
                       target="_blank"
                     >
+                      Visit Website<ArrowForwardIosIcon/>
                       <b style={{ textAlign: "center" }}>BlogSite</b>
                     </a>
                   </div>
@@ -95,6 +97,8 @@ class Portfolio extends Component {
                       href="https://trackopportunity.azurewebsites.net/Identity/Account/Register"
                       target="_blank"
                     >
+                        Visit Website<ArrowForwardIosIcon/>
+
                       <b style={{ textAlign: "center" }}>Opportunity Tracker</b>
                     </a>
                   </div>
@@ -138,6 +142,8 @@ class Portfolio extends Component {
                     href="https://whispering-basin-56465.herokuapp.com/"
                     target="_blank"
                   >
+                       Visit Website<ArrowForwardIosIcon/>
+
                     <b style={{ textAlign: "center" }}>
                       Feedback Collection App
                     </b>
@@ -187,9 +193,10 @@ class Portfolio extends Component {
                     </a>
                   <a
                     className="text-white"
-                    href=" https://github.com/HafsaR/product-taxonomy-api"
+                    href="https://product-taxonomy-api.herokuapp.com/"
                     target="_blank"
                   >
+                      Visit Website<ArrowForwardIosIcon/>
                     <b style={{ textAlign: "center" }}>Product Taxonomy API</b>
                   </a>
                 </Card.Text>
@@ -230,6 +237,7 @@ class Portfolio extends Component {
                     href="https://github.com/HafsaR/android-download-magazines"
                     target="_blank"
                   >
+                      Visit Website<ArrowForwardIosIcon/>
                     <b style={{ textAlign: "center" }}>Barkat-e-khwaja</b>
                   </a>
                 </Card.Text>
@@ -244,6 +252,7 @@ class Portfolio extends Component {
               text={"dark" === "light" ? "dark" : "white"}
               style={{ width: "18rem" }}
               className="mb-2 card h-100"
+
             >
               <Card.Header>Project Name</Card.Header>
               <Card.Body>
@@ -272,6 +281,7 @@ class Portfolio extends Component {
                     href="https://github.com/HafsaR/catelog-manager  "
                     target="_blank"
                   >
+                      Visit Website<ArrowForwardIosIcon/>
                     <b style={{ textAlign: "center" }}>
                       Toolshed Catelog Manager
                     </b>

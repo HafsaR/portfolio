@@ -19,8 +19,8 @@ class About extends Component {
           <Col>
             <Figure>
               <Figure.Image
-                width={171}
-                height={180}
+                width={200}
+                height={200}
                 alt="171x180"
                 src="/image/hafsa.jpg"
               />
