@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Button, Col, Row, Card, CardDeck } from "react-bootstrap";
-import CodeIcon from '@material-ui/icons/Code';
-import ColorLensIcon from '@material-ui/icons/ColorLens';
-import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import { Button, Col, Row, Card, CardDeck, Image,FigureImage,Figure } from "react-bootstrap";
+import CodeIcon from "@material-ui/icons/Code";
+import ColorLensIcon from "@material-ui/icons/ColorLens";
+import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
 
 class About extends Component {
   render() {
@@ -16,7 +16,19 @@ class About extends Component {
           </Col>
         </Row>
         <Row className="p-3" xs={1} md={2}>
-          <Col>Hello</Col>
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={171}
+                height={180}
+                alt="171x180"
+                src="/image/hafsa.jpg"
+              />
+              <Figure.Caption>
+               Hafsabanu Degmaster
+              </Figure.Caption>
+            </Figure>
+          </Col>
           <Col>
             <h1>
               I am <span style={{ color: "green" }}>Hafsa Degmaster</span>
@@ -58,16 +70,18 @@ class About extends Component {
             </h1>
           </Col>
         </Row>
-        <Row  xs={1} md={3}>
+        <Row xs={1} md={3}>
           <Col>
             <Card
               bg="dark"
-              key= '1'
-              text={'dark' === 'light' ? 'dark' : 'white'}
+              key="1"
+              text={"dark" === "light" ? "dark" : "white"}
               style={{ width: "18rem" }}
               className="mb-2"
             >
-              <Card.Header><CodeIcon/></Card.Header>
+              <Card.Header>
+                <CodeIcon />
+              </Card.Header>
               <Card.Body>
                 <Card.Title> Web Development </Card.Title>
                 <Card.Text>
@@ -80,12 +94,14 @@ class About extends Component {
           <Col>
             <Card
               bg="dark"
-              key= '1'
-              text={'dark' === 'light' ? 'dark' : 'white'}
+              key="1"
+              text={"dark" === "light" ? "dark" : "white"}
               style={{ width: "18rem" }}
               className="mb-2"
             >
-              <Card.Header><ColorLensIcon/></Card.Header>
+              <Card.Header>
+                <ColorLensIcon />
+              </Card.Header>
               <Card.Body>
                 <Card.Title> Web Design </Card.Title>
                 <Card.Text>
@@ -94,15 +110,18 @@ class About extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col> <Col>
+          </Col>{" "}
+          <Col>
             <Card
               bg="dark"
-              key= '1'
-              text={'dark' === 'light' ? 'dark' : 'white'}
+              key="1"
+              text={"dark" === "light" ? "dark" : "white"}
               style={{ width: "18rem" }}
               className="mb-2"
             >
-              <Card.Header><DeveloperModeIcon/></Card.Header>
+              <Card.Header>
+                <DeveloperModeIcon />
+              </Card.Header>
               <Card.Body>
                 <Card.Title> Full-stack Developer </Card.Title>
                 <Card.Text>

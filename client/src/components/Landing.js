@@ -19,7 +19,7 @@ class Landing extends Component {
                 Hi, I am{" "}
                 <span style={{ color: "#007bff" }}>Hafsa Degmaster</span>
               </h1>
-              <h1>I am a developer. I make website more interactive</h1>
+              <h1>I am a full-stack developer. I make website more interactive</h1>
             </div>
           </Col>
         </Row>

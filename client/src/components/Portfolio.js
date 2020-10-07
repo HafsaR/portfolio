@@ -113,39 +113,46 @@ class Portfolio extends Component {
             >
               <Card.Header>Project Name</Card.Header>
               <Card.Body>
-                <Card.Title>Toolshed Catelog Manager </Card.Title>
+                <Card.Title>Feedback Collection</Card.Title>
                 <Card.Text>
-                  A project to parse json files, store them in MongoDB, and view
-                  them using express.
+                  This project is about Blog post. Anyone can read a blog from
+                  this site. Only admin have access to handle a blog.
                 </Card.Text>
                 <Card.Text>
                   <span>
                     <b>Technologies</b>
                     <br />
-                    NodeJS, MongoDB, JavaScript
+                    NodeJs, MongoDB, Bootstrap, JavaScript
                   </span>
                   <br />
                   <br />
                   <a
-                    className="float-right text-danger"
-                    href="https://github.com/HafsaR/catelog-manager"
-                    target="_blank"
-                  >
-                    <GitHubIcon />
-                  </a>
+                      className="float-right text-danger"
+                      href="https://github.com/HafsaR/feedbackCollectionApp"
+                      target="_blank"
+                    >
+                      <GitHubIcon />
+                    </a>
                   <a
                     className="text-white"
-                    href="https://github.com/HafsaR/catelog-manager  "
+                    href="https://whispering-basin-56465.herokuapp.com/"
                     target="_blank"
                   >
                     <b style={{ textAlign: "center" }}>
-                      Toolshed Catelog Manager
+                      Feedback Collection App
                     </b>
                   </a>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
+
+
+
+
+
+
+         
         </Row>
         <Row className="p-3" xs={1} md={3}>
           <Col>
@@ -229,6 +236,7 @@ class Portfolio extends Component {
               </Card.Body>
             </Card>
           </Col>{" "}
+
           <Col>
             <Card
               bg="dark"
@@ -239,39 +247,40 @@ class Portfolio extends Component {
             >
               <Card.Header>Project Name</Card.Header>
               <Card.Body>
-                <Card.Title>Feedback Collection</Card.Title>
+                <Card.Title>Toolshed Catelog Manager </Card.Title>
                 <Card.Text>
-                  This project is about Blog post. Anyone can read a blog from
-                  this site. Only admin have access to handle a blog.
+                  A project to parse json files, store them in MongoDB, and view
+                  them using express.
                 </Card.Text>
                 <Card.Text>
                   <span>
                     <b>Technologies</b>
                     <br />
-                    NodeJs, MongoDB, Bootstrap, JavaScript
+                    NodeJS, MongoDB, JavaScript
                   </span>
                   <br />
                   <br />
                   <a
-                      className="float-right text-danger"
-                      href="https://github.com/HafsaR/feedbackCollectionApp"
-                      target="_blank"
-                    >
-                      <GitHubIcon />
-                    </a>
+                    className="float-right text-danger"
+                    href="https://github.com/HafsaR/catelog-manager"
+                    target="_blank"
+                  >
+                    <GitHubIcon />
+                  </a>
                   <a
                     className="text-white"
-                    href="https://whispering-basin-56465.herokuapp.com/"
+                    href="https://github.com/HafsaR/catelog-manager  "
                     target="_blank"
                   >
                     <b style={{ textAlign: "center" }}>
-                      Feedback Collection App
+                      Toolshed Catelog Manager
                     </b>
                   </a>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
+         
         </Row>
       </div>
     );
